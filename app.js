@@ -41,12 +41,12 @@ $(document).ready( function() {
   if (userChoice === "c") {
     var result = toC(userTemp);
     result = result.toFixed(2);
-    $(document).find("h2").append(result+" &degC;");
+    $(document).find("h2").append(result+" &deg;C");
   }
   else {
     var result = toF(userTemp);
     result = result.toFixed(2);
-    $(document).find("h2").append(result+" &degF;");
+    $(document).find("h2").append(result+" &deg;F");
   }
 
 });
